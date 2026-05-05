@@ -1,7 +1,6 @@
 import { clColor, clConfig, clOutput, clText, clUpdate, clUtil } from '@commercelayer/cli-core'
 import commercelayer, { type CommerceLayerClient, CommerceLayerStatic, type LinkCreate } from '@commercelayer/sdk'
 import { Args, Command, ux as cliux, Flags } from '@oclif/core'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import { DOC_DATE_TIME_STRING_FORMAT, fillUTCDate } from './util'
 
 
@@ -61,7 +60,7 @@ export abstract class BaseCommand extends Command {
           { suggestions: ['Execute login to get access to the organization\'s resources'] }
         )
       } else this.error(clOutput.formatError(error, flags))
-    } else return await super.catch(error as CommandError)
+    } else return await super.catch(error)
   }
 
 

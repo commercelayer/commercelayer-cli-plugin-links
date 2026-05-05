@@ -1,10 +1,22 @@
-## [1.1.2](https://github.com/commercelayer/commercelayer-cli-plugin-links/compare/v1.1.1...v1.1.2) (2026-04-15)
+# [2.0.0-oclif4.2](https://github.com/commercelayer/commercelayer-cli-plugin-links/compare/v2.0.0-oclif4.1...v2.0.0-oclif4.2) (2026-05-05)
 
 
 ### Bug Fixes
 
 * run tests in updates workflow ([8083adf](https://github.com/commercelayer/commercelayer-cli-plugin-links/commit/8083adfd761d911be9deecb2762e4b7eb550bc60))
 * update dependencies and add updates workflow ([de1ba34](https://github.com/commercelayer/commercelayer-cli-plugin-links/commit/de1ba3499cfdf4c60e6b8575f9a298d705667ddd))
+
+# [2.0.0-oclif4.1](https://github.com/commercelayer/commercelayer-cli-plugin-links/compare/v1.1.1...v2.0.0-oclif4.1) (2026-03-26)
+
+
+### Features
+
+* upgrade to oclif core v4 ([ae66f8c](https://github.com/commercelayer/commercelayer-cli-plugin-links/commit/ae66f8c78596e127ca8d85e2533869ea280b4bf7))
+
+
+### BREAKING CHANGES
+
+* upgrade to oclif core v4
 
 ## [1.1.1](https://github.com/commercelayer/commercelayer-cli-plugin-links/compare/v1.1.0...v1.1.1) (2026-03-24)
 
